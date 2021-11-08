@@ -96,10 +96,11 @@ GEM
     capybara-webkit (1.15.1)
       capybara (>= 2.3, < 4.0)
       json
-    carrierwave (1.2.3)
+    carrierwave (1.3.2)
       activemodel (>= 4.0.0)
       activesupport (>= 4.0.0)
       mime-types (>= 1.16)
+      ssrf_filter (~> 1.0)
     case_transform (0.2)
       activesupport
     celluloid (0.17.3)
@@ -208,9 +209,9 @@ GEM
       mimemagic (~> 0.3.2)
     method_source (1.0.0)
     middleware (0.1.0)
-    mime-types (3.2.2)
+    mime-types (3.3.1)
       mime-types-data (~> 3.2015)
-    mime-types-data (3.2018.0812)
+    mime-types-data (3.2021.0901)
     mimemagic (0.3.10)
       nokogiri (~> 1)
       rake
@@ -402,6 +403,7 @@ GEM
     sshkit (1.18.0)
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
+    ssrf_filter (1.0.7)
     temple (0.8.0)
     therubyracer (0.12.3)
       libv8 (~> 3.16.14.15)
